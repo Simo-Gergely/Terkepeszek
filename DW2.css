@@ -1,0 +1,525 @@
+.select_div{
+	margin-bottom: 16px;
+}
+
+.div_alert{
+	padding: 20px;
+	background-color: #f44336;
+	color: white;
+	display: none;
+	margin-bottom: 8px;
+}
+
+.Close_btn{
+	margin-left: 15px;
+	color: white;
+	font-weight: bold;
+	float: right;
+	font-size: 22px;
+	line-height: 20px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.Close_btn:hover{
+	color: black;
+}
+	
+#alert_msg{
+	margin: 0;
+}
+
+/*Map Setting*/
+
+.container_map {
+	position: relative;
+	text-align: center;	
+	font-size: 20px;
+	border: none;
+  	color: white;
+  	padding: 2px;
+}
+.svedorszag{
+	position: absolute;
+	top: 187px;
+	right: 275px;
+	border: none;
+  	color: white;
+  	padding: 2px;
+  	display: inline-block;
+  	cursor: pointer;
+  	width: 10px;
+  	height:10px;
+	border-radius: 50%;
+	background-color: red;
+}
+.norvegia{
+	position: absolute;
+	top: 180px;
+	left: 220px;
+	border: none;
+  	color: white;
+  	padding: 2px;
+  	display: inline-block;
+  	cursor: pointer;
+  	width: 10px;
+  	height:10px;
+	border-radius: 50%;
+	background-color: red;
+}
+.US{
+	position: absolute;
+	bottom: 205px;
+	left: 100px;
+	border: none;
+  	color: white;
+  	padding: 2px;
+  	display: inline-block;
+  	cursor: pointer;
+  	width: 10px;
+  	height:10px;
+	border-radius: 50%;
+	background-color: red;
+}
+.russia{
+	position: absolute;
+	top: 230px;
+	right: 105px;
+	border: none;
+  	color: white;
+  	padding: 2px;
+  	display: inline-block;
+  	cursor: pointer;
+  	width: 10px;
+  	height:10px;
+	border-radius: 50%;
+	background-color: red;
+}
+.magyar{
+	position: absolute;
+	bottom: 144px;
+	right: 263px;
+	border: none;
+  	color: white;
+  	padding: 2px;
+  	display: inline-block;
+  	cursor: pointer;
+  	width: 10px;
+  	height:10px;
+	border-radius: 50%;
+	background-color: red;
+}
+.german{
+	position: absolute;
+	bottom: 211px;
+	left: 230px;
+	border: none;
+  	color: white;
+  	padding: 2px;
+  	display: inline-block;
+  	cursor: pointer;
+  	width: 10px;
+  	height:10px;
+	border-radius: 50%;
+	background-color: red;
+}
+.spain{
+	position: absolute;
+	bottom: 56px;
+	left: 72px;
+	border: none;
+  	color: white;
+  	padding: 2px;
+  	display: inline-block;
+  	cursor: pointer;
+  	width: 10px;
+  	height:10px;
+	border-radius: 50%;
+	background-color: red;
+}
+.italy{
+	position: absolute;
+	bottom: 79px;
+	left: 240px;
+	border: none;
+  	color: white;
+  	padding: 2px;
+  	display: inline-block;
+  	cursor: pointer;
+  	width: 10px;
+  	height:10px;
+	border-radius: 50%;
+	background-color: red;
+}
+.poland{
+	position: absolute;
+	bottom: 215px;
+	right: 248px;
+	border: none;
+  	color: white;
+  	padding: 2px;
+  	display: inline-block;
+  	cursor: pointer;
+  	width: 10px;
+  	height:10px;
+	border-radius: 50%;
+	background-color: red;
+}
+.france{
+	position: absolute;
+	bottom: 165px;
+	left: 130px;
+	border: none;
+  	color: white;
+  	padding: 2px;
+  	display: inline-block;
+  	cursor: pointer;
+  	width: 10px;
+  	height:10px;
+	border-radius: 50%;
+	background-color: red;
+}
+.finn{
+	position: absolute;
+	top: 179px;
+	right: 208px;
+	border: none;
+  	color: white;
+  	padding: 2px;
+  	display: inline-block;
+  	cursor: pointer;
+  	width: 10px;
+  	height:10px;
+	border-radius: 50%;
+	background-color: red;
+}
+.jugo{
+	position: absolute;
+	bottom: 110px;
+	right: 248px;
+	border: none;
+  	color: white;
+  	padding: 2px;
+  	display: inline-block;
+  	cursor: pointer;
+  	width: 10px;
+  	height:10px;
+	border-radius: 50%;
+	background-color: red;
+}
+.cz_slo{
+	position: absolute;
+	bottom: 185px;
+	left: 254px;
+	border: none;
+  	color: white;
+  	padding: 2px;
+  	display: inline-block;
+  	cursor: pointer;
+  	width: 10px;
+  	height:10px;
+	border-radius: 50%;
+	background-color: red;
+}
+.romania{
+	position: absolute;
+	bottom: 110px;
+	right: 185px;
+	border: none;
+  	color: white;
+  	padding: 2px;
+  	display: inline-block;
+  	cursor: pointer;
+  	width: 10px;
+  	height:10px;
+	border-radius: 50%;
+	background-color: red;
+}
+.bulgaria{
+	position: absolute;
+	bottom: 84px;
+	right: 218px;
+	border: none;
+  	color: white;
+  	padding: 2px;
+  	display: inline-block;
+  	cursor: pointer;
+  	width: 10px;
+  	height:10px;
+	border-radius: 50%;
+	background-color: red;
+}
+.turkey{
+	position: absolute;
+	bottom: 48px;
+	right: 140px;
+	border: none;
+  	color: white;
+  	padding: 2px;
+  	display: inline-block;
+  	cursor: pointer;
+  	width: 10px;
+  	height:10px;
+	border-radius: 50%;
+	background-color: red;
+}
+.greece{
+	position: absolute;
+	bottom: 30px;
+	right: 218px;
+	border: none;
+  	color: white;
+  	padding: 2px;
+  	display: inline-block;
+  	cursor: pointer;
+  	width: 10px;
+  	height:10px;
+	border-radius: 50%;
+	background-color: red;
+}
+.austria{
+	position: absolute;
+	bottom: 152px;
+	left: 275px;
+	border: none;
+  	color: white;
+  	padding: 2px;
+  	display: inline-block;
+  	cursor: pointer;
+  	width: 10px;
+  	height:10px;
+	border-radius: 50%;
+	background-color: red;
+}
+.swajc{
+	position: absolute;
+	bottom: 135px;
+	left: 187px;
+	border: none;
+  	color: white;
+  	padding: 2px;
+  	display: inline-block;
+  	cursor: pointer;
+  	width: 10px;
+  	height:10px;
+	border-radius: 50%;
+	background-color: red;
+}
+.ireland{
+	position: absolute;
+	top: 273px;
+	left: 37px;
+	border: none;
+  	color: white;
+  	padding: 2px;
+  	display: inline-block;
+  	cursor: pointer;
+  	width: 10px;
+  	height:10px;
+	border-radius: 50%;
+	background-color: red;
+}
+.portugal{
+	position: absolute;
+	bottom: 43px;
+	left: 23px;
+	border: none;
+  	color: white;
+  	padding: 2px;
+  	display: inline-block;
+  	cursor: pointer;
+  	width: 10px;
+  	height:10px;
+	border-radius: 50%;
+	background-color: red;
+}
+.dania{
+	position: absolute;
+	top: 249px;
+	left: 232px;
+	border: none;
+  	color: white;
+  	padding: 2px;
+  	display: inline-block;
+  	cursor: pointer;
+  	width: 10px;
+  	height:10px;
+	border-radius: 50%;
+	background-color: red;
+}
+
+.svedorszag_p1{
+	visibility: hidden;
+	position: absolute;
+	font-size: 12px;
+	top: 167px;
+	right: 260px;
+}
+
+.norvegia_p1{
+	visibility: hidden;
+	position: absolute;
+	font-size: 12px;
+	top: 160px;
+	left: 200px;
+}
+
+.US_p1{
+	visibility: hidden;
+	position: absolute;
+	font-size: 12px;
+	bottom: 225px;
+	left: 80px;
+}
+
+.russia_p1{
+	visibility: hidden;
+	position: absolute;
+	font-size: 12px;
+	top: 210px;
+	right: 115px;
+}
+
+.magyar_p1{
+	visibility: hidden;
+	position: absolute;
+	font-size: 12px;
+	bottom: 164px;
+	right: 273px;
+}
+
+.german_p1{
+	visibility: hidden;
+	position: absolute;
+	font-size: 12px;
+	bottom: 231px;
+	left: 210px;
+}
+
+.spain_p1{
+	visibility: hidden;
+	position: absolute;
+	font-size: 12px;
+	bottom: 76px;
+	left: 52px;
+}
+
+.italy_p1{
+	visibility: hidden;
+	position: absolute;
+	font-size: 12px;
+	bottom: 99px;
+	left: 220px;
+}
+
+.poland_p1{
+	visibility: hidden;
+	position: absolute;
+	font-size: 12px;
+	bottom: 235px;
+	right: 258px;
+}
+
+.france_p1{
+	visibility: hidden;
+	position: absolute;
+	font-size: 12px;
+	bottom: 185px;
+	left: 110px;
+}
+
+.finn_p1{
+	visibility: hidden;
+	position: absolute;
+	font-size: 12px;
+	top: 159px;
+	right: 218px;
+}
+
+.jugo_p1{
+	visibility: hidden;
+	position: absolute;
+	font-size: 12px;
+	bottom: 130px;
+	right: 258px;
+}
+
+.cz_slo_p1{
+	visibility: hidden;
+	position: absolute;
+	font-size: 12px;
+	bottom: 205px;
+	left: 234px;
+}
+
+.romania_p1{
+	visibility: hidden;
+	position: absolute;
+	font-size: 12px;
+	bottom: 130px;
+	right: 195px;
+}
+
+.bulgaria_p1{
+	visibility: hidden;
+	position: absolute;
+	font-size: 12px;
+	bottom: 104px;
+	right: 228px;
+}
+
+.turkey_p1{
+	visibility: hidden;
+	position: absolute;
+	font-size: 12px;
+	bottom: 68px;
+	right: 150px;
+}
+
+.greece_p1{
+	visibility: hidden;
+	position: absolute;
+	font-size: 12px;
+	bottom: 50px;
+	right: 228px;
+}
+
+.austria_p1{
+	visibility: hidden;
+	position: absolute;
+	font-size: 12px;
+	bottom: 172px;
+	left: 255px;
+}
+
+.swajc_p1{
+	visibility: hidden;
+	position: absolute;
+	font-size: 12px;
+	bottom: 155px;
+	left: 167px;
+}
+
+.portugal_p1{
+	visibility: hidden;
+	position: absolute;
+	font-size: 12px;
+	bottom: 63px;
+	left: 3px;
+}
+
+.ireland_p1{
+	visibility: hidden;
+	position: absolute;
+	font-size: 12px;
+	top: 253px;
+	left: 17px;
+}
+
+.dania_p1{
+	visibility: hidden;
+	position: absolute;
+	font-size: 12px;
+	top: 229px;
+	left: 212px;
+}
